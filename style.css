@@ -1,0 +1,35 @@
+/* Tailwind + extra styles for portfolio */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-link, .mobile-nav-link {
+    transition: color 0.3s;
+}
+.nav-link:hover, .mobile-nav-link:hover {
+    color: #1D4ED8; /* blue-600 */
+}
+
+.cta-button {
+    background: #1D4ED8;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: transform 0.3s, background 0.3s;
+}
+.cta-button:hover {
+    background: #2563EB;
+    transform: translateY(-3px);
+}
+
+.skill-item {
+    background-color: #DBEAFE;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: 500;
+    transition: transform 0.3s;
+}
+.skill-item:hover {
+    transform: scale(1.05);
+}
